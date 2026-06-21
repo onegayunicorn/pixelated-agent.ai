@@ -1,0 +1,2 @@
+.env *.env *.tfstate* .terraform .tofu node_modules dist build .next
+.idea .vscode *.key *.pem *.asc.enc 08-identity/*.sec.*

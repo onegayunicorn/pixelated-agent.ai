@@ -1,0 +1,6 @@
+{"name":"@pixelated/root","version":"1.0.0","private":true,
+"packageManager":"pnpm@9.0.0",
+"workspaces":["apps/*","packages/*","agents/*","commerce/*","ops/*"],
+"scripts":{"build":"turbo build","dev":"turbo dev","lint":"turbo lint",
+"agent:register":"bash scripts/register-and-launch.sh",
+"audit":"bash scripts/verify.sh","sign:all":"gpg --detach-sign --armor VERSION"}}

@@ -1,0 +1,4 @@
+plans:
+  - {id:sovereign-free,price:0}
+  - {id:sovereign-pro,price:29}
+  - {id:sovereign-enterprise,price:99}

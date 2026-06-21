@@ -1,0 +1,4 @@
+#!/usr/bin/env bash; set -e
+git config commit.gpgsign true
+SIG=$(git log -1 --pretty=%G? 2>/dev/null || true)
+[ "$SIG" = "G" ] || [ -z "$SIG" ] || { echo "🛡️ commits MUST be GPG signed" >&2; exit 1; }
